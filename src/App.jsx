@@ -39,7 +39,7 @@ const NewInstructor  = ({ getInstructors }) => {
   }
 
   return (
-    <div style={{ marginTop: 20}}>
+    <div style={{ marginTop: 20 }}>
       <h2>Create A New Instructor</h2>
       <input 
       onChange={e => setName(e.target.value)}
